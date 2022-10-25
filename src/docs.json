@@ -1,0 +1,26 @@
+[
+  {
+    "order": -3,
+    "title": "PintOS vscode",
+    "description": "Crea un nuevo proyecto, corre y haz debugging desde visual studio code",
+    "path": "/pintos-vscode"
+  },
+  {
+    "order": -2,
+    "title": "PintOS Github Checker",
+    "description": "Automatiza la calificación de las 4 fases del proyecto usando Github Actions",
+    "path": "/github-action"
+  },
+  {
+    "order": -1,
+    "title": "PintOS Ballenizado",
+    "description": "Un entorno listo para ejecutar PintOS utilizando Docker",
+    "path": "/pintos-docker"
+  },
+  {
+    "order": 99,
+    "title": "PintOS Phase",
+    "description": "Una forma rápida de cambiar de fase en el proyecto de forma global (no recomendado)",
+    "path": "/pintosph"
+  }
+]

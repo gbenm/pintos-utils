@@ -1,0 +1,10 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "_info.json",
+        "cmd": "node writeDocsJson.js",
+      }
+    ]
+  }
+}

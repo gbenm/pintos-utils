@@ -1,0 +1,5 @@
+{
+  "order": -2,
+  "title": "PintOS Github Checker",
+  "description": "Automatiza la calificación de las 4 fases del proyecto usando Github Actions"
+}
