@@ -6,7 +6,7 @@ require('./writeDocsJson')
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const githubUrl = (/** @type {string[]} */ ...segments) => `https://github.com/gbenm/${segments.join("/")}`
+const githubUrl = (/** @type {string[]} */ ...segments) => `https://github.com/gbenm/pintos-utils/${segments.join("/")}`
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -59,7 +59,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: githubUrl(),
             label: 'GitHub',
             position: 'right',
           },
