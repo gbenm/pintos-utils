@@ -14,6 +14,7 @@ const config = {
   tagline: 'Un flujo desarrollo fácil y cómodo :)',
   url: 'https://gbenm.github.io/',
   baseUrl: '/pintos-utils/',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
