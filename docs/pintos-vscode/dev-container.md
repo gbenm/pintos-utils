@@ -187,3 +187,6 @@ y luego selecciona las 4 fases
 
 > si te aparece una notificación que te pregunta si quieres abrir el espacio de trabajo
 en el contenedor puedes usar esa forma también.
+
+## Verifica que el proyecto esté bien instalado
+Sigue los pasos listados [aquí](./check-health)
