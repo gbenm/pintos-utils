@@ -157,6 +157,12 @@ Todo ha ido bien si puedes ver esto en vez de símbolo anterior
 
 > Puedes encontrar más temas en [oh my bash](https://github.com/ohmybash/oh-my-bash/wiki/Themes)
 
+7. Haz un commit con tus cambios
+  ```bash
+  git add .
+  git commit -m "chore: setup dev container"
+  ```
+
 ### Verifica que la extensión esté instalada
 Y mi extensión? Verás las extensiones como esta (de tipo workspace) se ejecutan del
 lado del contenedor, ve al apartado de las extensiones y busca pintos y verifica que
