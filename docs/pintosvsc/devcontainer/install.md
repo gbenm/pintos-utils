@@ -150,4 +150,4 @@ y luego selecciona las 4 fases
 ![image](assets/refresh-options.png)
 
 # Verifica que el proyecto esté bien instalado
-Sigue los pasos listados [aquí](./check-health)
+Sigue los pasos listados [aquí](../check-health)
