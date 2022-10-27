@@ -52,6 +52,7 @@ la documentación oficial de docker si lo encuentras más fácil https://docs.do
 > No necesitas cumplir los prerequisitos para generar los archivos
 
 Busca el comando "setup dev container for pintos"
+
   ![image](assets/setup-dev-container.png)
 
 ### Entra al contenedor
@@ -60,8 +61,11 @@ Entra por primera vez para que el contenedor se construya
 > - Asegúrate de que el servicio de Docker esté corriendo
 
 - Ve a la parte inferior izquierda y presiona en el símbolo que se parece a `> <`
+
   ![image](assets/remote-control.png)
+
 - Escoge "reopen in container"
+
   ![image](assets/reopen-in-container.png)
 
 > A veces aparece una notificación que te pregunta si quieres abrir el espacio de trabajo
@@ -88,6 +92,7 @@ Todo ha ido bien si puedes ver esto en vez de símbolo anterior
 
 ### Configurar el contenedor
 1. abre una terminal
+
   ![image](assets/open-terminal.png)
 
   verás una terminal sin color como la siguiente
@@ -187,8 +192,11 @@ y luego selecciona las 4 fases
 
 - Abre visual studio code en la carpeta del proyecto
 - Ve a la parte inferior izquierda y presiona en el símbolo que se parece a `> <`
+
   ![image](assets/remote-control.png)
+
 - Escoge "reopen in container"
+
   ![image](assets/reopen-in-container.png)
 
 > si te aparece una notificación que te pregunta si quieres abrir el espacio de trabajo

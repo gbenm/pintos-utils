@@ -94,6 +94,7 @@ el git y para su uso personal (si quiere hasta puede poner cualquier texto aleat
 3. Pegue el link en el input y continue
 
   ![image](assets/repo-url.png)
+
 4. Puede abrir directamente el proyecto desde la notificación que emergió después del
 último paso
 
@@ -106,9 +107,13 @@ en la imagen de docker [gbenm/pintos](https://hub.docker.com/r/gbenm/pintos) **d
 el emulador** a `qemu`
 
 1. Diríjase a threads/Make.vars y ábralo
+
   ![image](assets/open-make-vars.png)
+
 2. cambie el valor a `--qemu`
+
   ![image](assets/use-qemu.png)
+
 3. confirme sus cambios y haga su commit
   ```bash
   git add .
