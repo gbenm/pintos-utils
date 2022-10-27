@@ -1,0 +1,30 @@
+
+# Uso
+
+## Iniciar el contenedor
+
+Dele doble clic xD. Si mira que se queda sin mostrar ningún output la consola, trate de dar un enter, a veces docker se queda así.
+
+## Detener el contenedor
+
+El contenedor se queda corriendo, para detenerlo necesita ejecutar (en el mismo directorio dónde tiene el archivo pintos-docker.bat)
+
+```batch
+.\pintos-docker stop
+```
+## Recomendado
+
+Si quiere seguir gozando del doble clic, puede crear una copia del archivo pintos-docker.bat, renombrarlo a  su gusto (por ejemplo stop-pintos.bat) y reemplazar el contenido del archivo por (recuerde que debe estar a la par de pintos-docker.bat, sino no va funcionar):
+
+```batch
+@echo off
+.\pintos-docker.bat stop
+```
+
+Puede servirle crear un acceso directo para su escritorio, si es que va dejar ambos scripts en la carpeta del proyecto. Realmente si no le importa puede dejarlo corriendo, al apagar su compu se va a detener de igual manera, o bien puede hacerlo desde **Docker Desktop**.
+
+import Link from "@site/src/components/LinkCard"
+
+<Link to="../first-use">Antes de usar (primera vez)</Link>
+
+
