@@ -8,7 +8,7 @@ Instale Docker desktop, tenga en cuenta que debe poder correr contenedores de Li
 
 Aquí tiene libertad para escoger dónde lo va a descargar, mi propuesta es que lo haga junto con los demás scripts de pintos es decir en la carpeta **utils** dentro de su directorio de código pintos, de esta manera **sólo un integrante lo hace**, posteriormente crear un acceso directo a su escritorio y ya puede darle doble clic :). Ejecute los siguiente en un **PowerShell** dentro de el directorio de su elección (recuerde en Windows también puede usar **cd** para navegar entre directorios, una solución fácil podría ser copiar la ruta desde el explorador de archivos y lugo darle cd y copiar la ruta).
 
-```batch
+```powershell
 Invoke-WebRequest -Uri "https://bit.ly/3GWwPY9" -OutFile pintos-docker.bat
 ```
 ## Definir variable pintos
