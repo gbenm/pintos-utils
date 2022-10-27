@@ -11,7 +11,7 @@ const githubUrl = (/** @type {string[]} */ ...segments) => `https://github.com/g
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Pintos Utils',
-  tagline: 'Un flujo desarrollo fácil y cómodo :)',
+  tagline: 'Un flujo de desarrollo fácil y cómodo :)',
   url: 'https://gbenm.github.io/',
   baseUrl: '/pintos-utils/',
   trailingSlash: false,
