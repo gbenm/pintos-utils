@@ -27,6 +27,14 @@ dice "Dev Container: PintOS")
 
   ![image](assets/edit-remote-control-button.png)
 
-Y seleccione "Reopen Folder Locally"
+A partir de este punto se pueden tomar 2 acciones:
+
+1. Cerrar la conección
 
   ![image](assets/stop-container.png)
+
+2. Re abrir el folder localmente
+
+  ![image](assets/reopen-local.png)
+
+Cualquiera de las dos anteriores detienen el contenedor iniciado por el editor
