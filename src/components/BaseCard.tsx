@@ -14,7 +14,7 @@ const backgroundColors = {
 
 export default function ({ children, style, className }: Props) {
   const { colorMode } = useColorMode()
-  const [bg, setBg] = useState({ variant: "normal", color: backgroundColors[colorMode].hover })
+  const [bg, setBg] = useState({ variant: "normal", color: backgroundColors[colorMode].normal })
 
   const changeBg = useCallback((mode: string, variant: string) => {
     setBg({
