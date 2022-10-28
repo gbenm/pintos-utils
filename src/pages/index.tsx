@@ -36,7 +36,7 @@ export default function Home(): JSX.Element {
   let key = 0
   return (
     <Layout
-      description="Description will go into a meta tag in <head />">
+      description="Un flujo de desarrollo fácil y cómodo :)">
       <HomepageHeader />
       <main>
         <div className={styles.docsIndex}>
