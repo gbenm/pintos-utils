@@ -6,10 +6,7 @@ sidebar_position: 1
 ## Instalación
 Ve a la pestaña de extensiones dentro de visual studio code y busca "pintos"
 
-<p align="center">
-
 ![image](assets/find-ext.png)
-</p>
 
 ## Features
 

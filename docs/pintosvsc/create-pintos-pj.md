@@ -48,12 +48,12 @@ El repositorio podría no tener el código fuente directamente, este
 es el caso del repositorio original de Pintos que contiene en la raíz
 otros archivos y una carpeta `src/` con el código
 
-<p align="center">
+<div align="center">
 
 ![image](assets/original-repo.png)
 
 El repo se ve bien viejo, pero ni modo xD
-</p>
+</div>
 
 En el caso que por ejemplo hayas usado https://github.com/gbenm/pintos-tuto
 como proyecto base, este contiene el código fuente en la raíz
