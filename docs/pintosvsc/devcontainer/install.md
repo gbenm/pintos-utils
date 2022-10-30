@@ -90,7 +90,7 @@ Todo ha ido bien si puedes ver esto en vez de símbolo anterior
 
   ![image](assets/oh-my-bash.png)
 
-5. Verifica la propiedad del archivo ~/.bashrc
+5. Verifica la propiedad del archivo container/.bashrc
   ```bash
   ls -l container/.bashrc
   ```
