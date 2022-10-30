@@ -90,3 +90,9 @@ si `make` envía o no la señal de terminación a sus procesos no se detendrá.
 :::caution
 No active esta opción a menos que sea totalmente necesario
 :::
+
+## Grade Regex
+
+Una expresión regular para extraer la nota actual del archivo grade de cada fase.
+Los grupos `grade` y `total` son requeridos (veáse grupos en las expresiones
+regulares para Javascript)
