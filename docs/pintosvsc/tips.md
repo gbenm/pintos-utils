@@ -40,3 +40,10 @@ git -c core.autocrlf=false clone REPO_URL
 
 Reemplace **REPO_URL** con el url del repositorio del código.
 
+:::info
+`core.autocrlf=false` le dice a git que no debe cambiar los saltos
+de línea de los archivos independiente del sistema dónde se encuentre,
+este es el problema con Windows para este proyecto. Se asume que el
+repositorio tiene `LF` para terminaciones de línea
+:::
+
