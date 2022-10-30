@@ -35,7 +35,7 @@ del sistema operativo se pueden tener problemas con los saltos de línea,
 para evitar esto puedo utilizar
 
 ```bash
-git -c core.autocrlf=input clone REPO_URL
+git -c core.autocrlf=false clone REPO_URL
 ```
 
 Reemplace **REPO_URL** con el url del repositorio del código.
