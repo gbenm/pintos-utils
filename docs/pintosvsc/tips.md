@@ -23,4 +23,20 @@ o seguir el final de output automáticamente
 Cada vez que se inicie una operación dónde es importante ver el output, lo mejor
 es limpiarlo para que no se mezcle con operaciones anteriores
 
+## Clonar repositorios propios
+
+:::info
+Esta sección se refiere a que ya se ha instalado previamente el proyecto
+y esta vez se require clonar el proyecto dónde se va a trabajar
+:::
+
+Cómo se comentaba en la sección de "crear un nuevo proyecto" dependiendo
+del sistema operativo se pueden tener problemas con los saltos de línea,
+para evitar esto puedo utilizar
+
+```bash
+git -c core.autocrlf=input clone REPO_URL
+```
+
+Reemplace **REPO_URL** con el url del repositorio del código.
 

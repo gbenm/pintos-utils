@@ -10,6 +10,13 @@ sistema el separador de línea es CRLF mientras que en Linux (de esta forma se n
 que funcione correctamente el proyecto) es únicamente LF
 :::
 
+:::caution Clonar repositorio
+Esta sección asume que el proyecto es totalmente nuevo (es decir que no se piensa realizar
+cambios al repositorio fuente), si se busca clonar el respositorio dónde se va a trabajar,
+esta **no es** la sección que debe consultar (consultar
+[clonar respositorios propios](tips#clonar-repositorios-propios))
+:::
+
 
 ## Abre Visual Studio code
 Para que funcione se debe de abrir una carpeta dónde se creará
