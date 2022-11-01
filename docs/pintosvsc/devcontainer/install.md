@@ -8,7 +8,7 @@ sidebar_position: 2
 - Tener una instalación de docker capaz de ejecutar contenedores de linux (Esto es un punto
 a tomar en cuenta en Windows, busca una guía para instalar Docker para esto), puedes consultar
 la documentación oficial de docker si lo encuentras más fácil https://docs.docker.com/desktop/
-- Un Visual Studio Code que soporte esta característica
+- Instalar la extensión [dev containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 ## Ejecutar el comando
 > No necesitas cumplir los prerequisitos para generar los archivos
