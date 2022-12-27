@@ -52,6 +52,31 @@ Todo ha ido bien si puedes ver esto en vez de símbolo anterior
 
 ![image](assets/open-success.png)
 
+## Instalar la extensión en el contenedor
+Al terminar de construirse el contenedor se levanta un error que indica que la extensión
+no ha podido instalarse debido a que depende de otra:
+
+![image](assets/auto-install-fail.png)
+
+Esto es normal y lo que se debe hacer, es instalar de nuevo la extensión, pero
+para el contenedor.
+
+![image](assets/ext-install-container.png)
+
+Se debe esperar a que la instalación termine
+
+<div align="center">
+
+![image](assets/wait-until-installation-finish.png)
+
+Instalación en progreso
+</div>
+
+Al terminar la instalación, se debe recargar, lo cuál se realiza con el botón
+que aparece:
+
+![image](assets/reload-container.png)
+
 ## Configurar el contenedor
 1. abre una terminal
 
@@ -129,14 +154,6 @@ Todo ha ido bien si puedes ver esto en vez de símbolo anterior
   git add .
   git commit -m "chore: setup dev container"
   ```
-
-## Verifica que la extensión esté instalada
-Y mi extensión? Verás las extensiones como esta (de tipo workspace) se ejecutan del
-lado del contenedor, ve al apartado de las extensiones y busca pintos y verifica que
-se encuentre instalada
-
-![image](assets/extension-in-container.png)
-
 
 ## Limpia y compila los tests
 Si estabas en un sistema con gcc, make, etc. Es probable que se hayan compilado las
