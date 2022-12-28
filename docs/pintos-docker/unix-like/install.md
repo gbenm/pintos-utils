@@ -17,7 +17,7 @@ Si no tiene instalado curl prosiga a instalarlo, si anda en un derivado de Debia
 :::
 
 
-Luego defina una variable extra en su ar chivo de configuración inicial (tipicamente se llama .bashrc) llamada PINTOS_HOME con el directorio de código fuente del proyecto, si ya la había definido omita este paso. Agregue la línea siguiente al final del archivo
+Luego defina una variable extra en su archivo de configuración inicial (tipicamente se llama .bashrc) llamada PINTOS_HOME con el directorio de código fuente del proyecto, si ya la había definido omita este paso. Agregue la línea siguiente al final del archivo
 
 
 ```bash title="~/.bashrc"
