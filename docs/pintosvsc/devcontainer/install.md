@@ -149,7 +149,23 @@ que aparece:
 
 > Puedes encontrar más temas en [oh my bash](https://github.com/ohmybash/oh-my-bash/wiki/Themes)
 
-7. Haz un commit con tus cambios
+7. Agregar archivos y carpetas al `.gitignore`
+
+  - La extensión genera una carpeta llamada `container/` que debe ser ignorada,
+    si además se utilizará pintos docker para acceder por terminal `.container-id`
+    también debe agregarse (para obtener más información de como instalar pintos docker
+    junto con pintos vscode [consulte aquí](/pintos-docker/first-use#usuarios-de-pintos-vs-code))
+
+    ```.gitignore {5-6} title=".gitignore" showLineNumbers
+    cscope.files
+    cscope.out
+    TAGS
+    tags
+    .container-id
+    container/
+    ```
+
+8. Haz un commit con tus cambios
   ```bash
   git add .
   git commit -m "chore: setup dev container"
