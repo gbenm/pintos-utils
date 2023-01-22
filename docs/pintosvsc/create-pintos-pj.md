@@ -26,7 +26,7 @@ de documentos.
 ![image](assets/open-vscode.png)
 
 ## Ejecuta el comando para crear nuevo proyecto
-Abre los comandos de vscode (ctrl+shift+p) y escribe
+Abre los comandos de vscode <kbd>⌃ Control</kbd> + <kbd>⇧ Shift</kbd> + <kbd>P</kbd> y escribe
 **"pintos"** para encontrar el comando.
 
 ![image](assets/create-cmd.png)
