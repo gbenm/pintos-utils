@@ -13,7 +13,7 @@ pero sería buena idea si pruebas primero sin tocar el valor
 :::
 
 ## Ejecuta el comando
-De nuevo abre los comandos (ctrl+shift+p) y busca por "check pintos health"
+De nuevo abre los comandos <kbd>⌃ Control</kbd> + <kbd>⇧ Shift</kbd> + <kbd>P</kbd> y busca por "check pintos health"
 
 ![image](assets/check-cmd.png)
 
