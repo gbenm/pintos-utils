@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Instalación
 
-## Pre requisitos para utilización
+## Prerrequisitos para utilización
 - Tener una instalación de docker capaz de ejecutar contenedores de linux (Esto es un punto
 a tomar en cuenta en Windows, busca una guía para instalar Docker para esto), puedes consultar
 la documentación oficial de docker si lo encuentras más fácil https://docs.docker.com/desktop/
