@@ -4,7 +4,7 @@ sidebar_position: 1
 # PintOS vscode
 
 ## Prerrequisitos para usuarios Windows
- - Sistem operativo Windows 10 64-bit Home o Pro.
+ - Sistema operativo Windows 10 64-bit Home o Pro o superiores.
  - Instalar [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/).
  - Instalar [WSL versión 2](https://learn-microsoft-com.translate.goog/en-us/windows/wsl/install?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-419&_x_tr_pto=sc).
 
