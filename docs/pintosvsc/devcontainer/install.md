@@ -11,7 +11,7 @@ la documentación oficial de docker si lo encuentras más fácil https://docs.do
 - Instalar la extensión [dev containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 ## Ejecutar el comando
-> No necesitas cumplir los prerequisitos para generar los archivos
+> No necesitas cumplir los prerrequisitos para generar los archivos
 
 Busca el comando "setup dev container for pintos"
 
@@ -19,7 +19,7 @@ Busca el comando "setup dev container for pintos"
 
 ## Entra al contenedor
 Entra por primera vez para que el contenedor se construya
-> - Para esto si necesitas cumplir con los prerequisitos.
+> - Para esto si necesitas cumplir con los prerrequisitos.
 > - Asegúrate de que el servicio de Docker esté corriendo
 
 - Ve a la parte inferior izquierda y presiona en el símbolo que se parece a `> <`
