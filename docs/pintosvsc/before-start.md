@@ -25,6 +25,35 @@ para ejecutarse. Se listan los importantes:
 - `utils/pintos-gdb`
 - `utils/backtrace`
 
+:::caution Usuarios Windows
+Windows no cuenta con el permiso de 'ejecución' como en linux, pero afortunadamente git 
+nos puede ayudar a hacerlo y a detectar dichos cambios ejecutando lo siguiente:
+
+```bash
+git update-index --chmod=+x utils/pintos
+```
+
+```bash
+git update-index --chmod=+x tests/make-grade
+```
+
+```bash
+git update-index --chmod=+x utils/pintos-mkdisk
+```
+
+```bash
+git update-index --chmod=+x utils/pintos-gdb
+```
+
+```bash
+git update-index --chmod=+x utils/backtrace
+```
+
+Si desea conocer más sobre esta solución puede consultar [esta discusión de github](https://github.com/orgs/community/discussions/26239)
+
+:::
+
+
 :::tip
 Hay varias formas de comprobar si un script tiene permisos de ejecución, desde
 tratar de ejecutarlo, listar los archivos, etc. En shells modernas al listar los
